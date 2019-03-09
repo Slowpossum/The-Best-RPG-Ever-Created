@@ -1,0 +1,58 @@
+#gameContainer {
+    background-image: url("../images/skyStock.jpg");
+    padding: 5px;
+    position: relative;
+    height: 625px;
+    width: 950px;
+    margin: 0 auto;
+    border: 2px solid blue;
+}
+
+#gameTitle {
+    margin: 0px;
+    position: absolute;
+    right: 100px;
+    top: 5px;
+}
+
+#characters {
+    margin-top: 42px;
+}
+
+.noMargin {
+    margin: 0px;
+}
+
+.fontWhite {
+    color: white;
+}
+
+.fontFormatting {
+    margin: 2px 0px 2px 0px;
+    font-size: 20px;
+}
+
+.portraitImage {
+    height: 80px;
+    width: 120px;
+}
+
+.characterPortrait {
+    margin-right: 5px;
+    text-align: center;
+    height: 110px;
+    width: 150px;
+    background: white;
+    border: 2px solid black;
+    float: left;
+}
+
+.border {
+    border: 1px solid black;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
